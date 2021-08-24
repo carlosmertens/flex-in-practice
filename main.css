@@ -21,6 +21,10 @@ body {
   display: flex;
   flex-direction: row; /* Default behaviour "row" */
   flex-wrap: wrap; /* Default behaviour "wrap" */
+  /* flex-flow: row wrap; */
+  align-items: center; /* Align items on the cross axis */
+  justify-content: center; /* Align items on the main axis */
+  align-content: center; /* Align items on the responsive behaviour */
 }
 
 .item-1 {
